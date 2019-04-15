@@ -138,3 +138,19 @@
     width: 300px;
     text-overflow: inherit;
 }
+
+@media screen and (min-width: 0px) and (max-width: 400px) {
+  #phone-names { display: block; }  /* show it on small screens */
+}
+
+@media screen and (min-width: 401px) and (max-width: 1024px) {
+  #phone-name { display: none; }   /* hide it elsewhere */
+}
+
+@media screen and (min-width: 0px) and (max-width: 400px) {
+  #desktop-names { display: none; }  /* show it on small screens */
+}
+
+@media screen and (min-width: 401px) and (max-width: 1024px) {
+  #desktop-name { display: block; }   /* hide it elsewhere */
+}
